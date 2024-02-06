@@ -476,11 +476,9 @@ html {
     <nav class="navbar">
         <a href="#" class="navbar-logo">My <span>Shopping</span></a>
         <div class="navbar-nav">
-            <a href="#home">Home</a>
-            <a href="#shop">Shop</a>
-            <a href="#store">Store</a>
-            <a href="#page">Page</a>
-            <a href="#docs">Docs</a>
+            <a href="#menu">Menu</a>
+            <a href="#produk">Produk</a>
+            <a href="#toko">Toko</a>
         </div>
         <div class="navbar-extra">
             <a href="#" id="search"><i data-feather="search"></i></a>
@@ -492,7 +490,7 @@ html {
     <!-- navbar end -->
 
     <!-- hero start -->
-    <section id="home" class="home">
+    <section id="menu" class="menu">
         <div class="hero-content" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
             <p class="wither">Summer Colection</p>
             <h2>New Summer</h2>
@@ -504,12 +502,12 @@ html {
     <!-- hero end -->
 
     <!-- shop start -->
-    <section id="shop" class="shop">
+    <section id="produk" class="produk">
         <h2>Our Trending Product</h2>
         <div class="shop-card">
             <div class="card" data-aos="zoom-in" data-aos-delay="100">
                 <div class="card-img">
-                    <img src="../img/card-1.jpg" alt="">
+                    <img src="img/card-1.jpg" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -662,7 +660,7 @@ html {
     <!-- shop end -->
 
     <!-- store start -->
-    <section id="store" class="offline-store">
+    <section id="toko" class="offline-store">
         <h1>My Offline Store</h1>
         <div class="offline-container">
             <div class="card-store" data-aos="flip-left" data-aos-duration="1000">

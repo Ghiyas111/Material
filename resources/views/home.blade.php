@@ -92,7 +92,7 @@ html {
 
 /* hero */
 
-.home {
+.menu {
     background-image: url(../img/background-hero.jpg);
     height: 100vh;
     background-attachment: fixed;
@@ -168,7 +168,7 @@ html {
 
 /* shop */
 
-.shop>h2 {
+.produk>h2 {
     padding-top: 80px;
     display: flex;
     justify-content: center;
@@ -247,7 +247,7 @@ html {
 
 /* store */
 
-.offline-store>h1 {
+.offline-toko>h1 {
     display: flex;
     padding: 100px 0 30px 0;
     justify-content: center;
@@ -340,7 +340,7 @@ html {
         padding: 12% 0 0 0;
     }
 
-    .home {
+    .menu {
         padding: 15% 0 0 10%;
     }
 
@@ -478,11 +478,9 @@ html {
     <nav class="navbar">
         <a href="#" class="navbar-logo">My <span>Shopping</span></a>
         <div class="navbar-nav">
-            <a href="#home">Home</a>
-            <a href="#shop">Shop</a>
-            <a href="#store">Store</a>
-            <a href="#page">Page</a>
-            <a href="#docs">Docs</a>
+            <a href="#menu">Menu</a>
+            <a href="#produk">Produk</a>
+            <a href="#toko">Toko</a>
         </div>
         <div class="navbar-extra">
             <a href="#" id="search"><i data-feather="search"></i></a>
@@ -494,7 +492,7 @@ html {
     <!-- navbar end -->
 
     <!-- hero start -->
-    <section id="home" class="home">
+    <section id="menu" class="menu">
         <div class="hero-content" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
             <p class="wither">Summer Colection</p>
             <h2>New Summer</h2>
@@ -506,7 +504,7 @@ html {
     <!-- hero end -->
 
     <!-- shop start -->
-    <section id="shop" class="shop">
+    <section id="produk" class="produk">
         <h2>Our Trending Product</h2>
         <div class="shop-card">
             <div class="card" data-aos="zoom-in" data-aos-delay="100">
@@ -664,7 +662,7 @@ html {
     <!-- shop end -->
 
     <!-- store start -->
-    <section id="store" class="offline-store">
+    <section id="toko" class="toko">
         <h1>My Offline Store</h1>
         <div class="offline-container">
             <div class="card-store" data-aos="flip-left" data-aos-duration="1000">
