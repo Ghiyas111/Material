@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My shopping</title>
+    <title>MyMaterial</title>
 
     <!-- my style -->
     <link rel="stylesheet" href="style.css">
@@ -93,7 +93,7 @@ html {
 /* hero */
 
 .menu {
-    background-image: url(../img/background-hero.jpg);
+    background-image: url();
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
@@ -476,11 +476,13 @@ html {
 <body>
     <!-- navbar start -->
     <nav class="navbar">
-        <a href="#" class="navbar-logo">My <span>Shopping</span></a>
+        <a href="#" class="navbar-logo">My <span>Material</span></a>
         <div class="navbar-nav">
             <a href="#menu">Menu</a>
             <a href="#produk">Produk</a>
             <a href="#toko">Toko</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </div>
         <div class="navbar-extra">
             <a href="#" id="search"><i data-feather="search"></i></a>
@@ -494,9 +496,9 @@ html {
     <!-- hero start -->
     <section id="menu" class="menu">
         <div class="hero-content" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
-            <p class="wither">Summer Colection</p>
-            <h2>New Summer</h2>
-            <h2>Collection 2024</h2>
+            <p class="wither">Material Produk</p>
+            <h2>New Produk</h2>
+            <h2>Produk 2024</h2>
             <p class="lorem">Lorem, ipsum dolor.</p>
             <a href="#">Shop Now <i class="fa-solid fa-arrow-right" id="panah"></i></a>
         </div>
@@ -505,11 +507,11 @@ html {
 
     <!-- shop start -->
     <section id="produk" class="produk">
-        <h2>Our Trending Product</h2>
+        <h2>Produk Kami</h2>
         <div class="shop-card">
             <div class="card" data-aos="zoom-in" data-aos-delay="100">
                 <div class="card-img">
-                    <img src="../img/card-1.jpg" alt="">
+                    <img src="../img/paku.jpg" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -524,7 +526,7 @@ html {
             </div>
             <div class="card" data-aos="zoom-in" data-aos-delay="200">
                 <div class="card-img">
-                    <img src="../img/card-2.jpg" alt="">
+                    <img src="../img/semen.jpg" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -539,7 +541,7 @@ html {
             </div>
             <div class="card" data-aos="zoom-in" data-aos-delay="300">
                 <div class="card-img">
-                    <img src="../img/card-3.jpg" alt="">
+                    <img src="../img/paralon.png" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -554,7 +556,7 @@ html {
             </div>
             <div class="card" data-aos="zoom-in" data-aos-delay="400">
                 <div class="card-img">
-                    <img src="../img/card-4.jpg" alt="">
+                    <img src="" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -569,7 +571,7 @@ html {
             </div>
             <div class="card" data-aos="zoom-in" data-aos-delay="500">
                 <div class="card-img">
-                    <img src="../img/card-5.jpg" alt="">
+                    <img src="" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -584,7 +586,7 @@ html {
             </div>
             <div class="card" data-aos="zoom-in" data-aos-delay="100">
                 <div class="card-img">
-                    <img src="../img/card-6.jpg" alt="">
+                    <img src="" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -599,7 +601,7 @@ html {
             </div>
             <div class="card" data-aos="zoom-in" data-aos-delay="200">
                 <div class="card-img">
-                    <img src="../img/card-7.jpg" alt="">
+                    <img src="" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -614,7 +616,7 @@ html {
             </div>
             <div class="card" data-aos="zoom-in" data-aos-delay="300">
                 <div class="card-img">
-                    <img src="../img/card-8.jpg" alt="">
+                    <img src="" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -629,7 +631,7 @@ html {
             </div>
             <div class="card" data-aos="zoom-in" data-aos-delay="400">
                 <div class="card-img">
-                    <img src="../img/card-9.jpg" alt="">
+                    <img src="" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -644,7 +646,7 @@ html {
             </div>
             <div class="card" data-aos="zoom-in" data-aos-delay="500">
                 <div class="card-img">
-                    <img src="../img/card-3.jpg" alt="">
+                    <img src="" alt="">
                 </div>
                 <div class="caption-card">
                     <div class="eyee">
@@ -670,7 +672,7 @@ html {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.6072693432625!2d107.75900867378529!3d-6.571149264234112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e693c9e535c5c75%3A0x7d4f73e4a31f335f!2sAlun-Alun%20Kota%20Subang!5e0!3m2!1sid!2sid!4v1704953182669!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="caption-store">
-                    <h3>Subang Jawa barat</h3>
+                    <h3>    </h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, velit.</p>
                 </div>
             </div>
@@ -679,7 +681,7 @@ html {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.4911817425086!2d108.55641377378753!3d-6.70975006559851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ee267cb8474b3%3A0x73c7df4620b5d915!2sAlun-Alun%20Kejaksan%2C%20Kota%20Cirebon!5e0!3m2!1sid!2sid!4v1704953268222!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="caption-store">
-                    <h3>Cirebon Jawa barat</h3>
+                    <h3></h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, velit.</p>
                 </div>
             </div>
@@ -688,7 +690,7 @@ html {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.830949804112!2d107.46229047378284!3d-6.415762327138299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69739ce357e149%3A0x6cd4e6d359647dfc!2sAlun%20Alun%20Cikampek!5e0!3m2!1sid!2sid!4v1704953362052!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="caption-store">
-                    <h3>Cikampek Jawa barat</h3>
+                    <h3></h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, velit.</p>
                 </div>
             </div>
@@ -697,7 +699,7 @@ html {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7385668590196!2d107.60448737379086!3d-6.921824167746835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e89dbe0ec231%3A0x177412aac90cd065!2sAlun-alun%20Bandung!5e0!3m2!1sid!2sid!4v1704953419304!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="caption-store">
-                    <h3>Bandung Jawa barat</h3>
+                    <h3></h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, velit.</p>
                 </div>
             </div>
@@ -709,7 +711,7 @@ html {
     <footer>
         <div class="container-footer">
             <div class="footer-logo">
-                <a href="#" class="navbar-logo">My <span>Shopping</span></a>
+                <a href="#" class="navbar-logo">My <span>Material</span></a>
             </div>
             <div class="footer-about">
                 <h3>Contact</h3>

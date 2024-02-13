@@ -479,6 +479,7 @@ html {
             <a href="#menu">Menu</a>
             <a href="#produk">Produk</a>
             <a href="#toko">Toko</a>
+            <a href="#about">About</a>
         </div>
         <div class="navbar-extra">
             <a href="#" id="search"><i data-feather="search"></i></a>
