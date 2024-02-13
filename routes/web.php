@@ -27,3 +27,10 @@ Route::get('register', [RegisterController::class, 'register'])->name('register'
 Route::post('register/action', [RegisterController::class, 'actionregister'])->name('actionregister');
 
 Route::get('register/verify/{verify_key}', [RegisterController::class, 'verify'])->name('verify');
+
+// routes/web.php
+
+use App\Http\Controllers\ContactController;
+
+Route::get('/contact', [ContactController::class, 'showForm']);
+Route::post('/contact', [ContactController::class, 'submitForm']);

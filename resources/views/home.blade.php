@@ -482,7 +482,7 @@ html {
             <a href="#produk">Produk</a>
             <a href="#toko">Toko</a>
             <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="/contact">Contact</a>
         </div>
         <div class="navbar-extra">
             <a href="#" id="search"><i data-feather="search"></i></a>
